@@ -53,7 +53,7 @@ class adicProdutosScreen {
 
    
 
-    // Testes de validações     
+    // Teste de Validação de aprodutos
 
     async getProductName() {
         await this.#getProductTitle.waitForExist({ timeout: 20000 })
